@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\belajar_larave\resources\views/index1.blade.php ENDPATH**/ ?>
