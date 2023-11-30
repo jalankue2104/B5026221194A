@@ -7,7 +7,7 @@
 
 	<form action="/formulir/proses" method="post">
 		<input type = "hidden" name = "_token" value = "<?php echo csrf_token() ?>">
-        <input type = "hidden" name = "nrp" value = "123456">
+        <input type = "hidden" name = "nrp" value = "5026221173">
 
       	Nama :
 		<input type="text" name="nama"> <br/>
@@ -18,4 +18,3 @@
 
 </body>
 </html>
-
