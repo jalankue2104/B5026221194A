@@ -1,0 +1,28 @@
+body{
+    font-size: 120%;
+    background-color: #f5f5f5;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.image-kanan{
+    width: 570px;
+}
+
+.float-right{
+    width: 144px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+        margin-top: 5px;
+        margin-bottom: 1rem;
+        width: 349px;
+        font-family: 'Nunito', sans-serif;
+        font-size:15px;
+ }
+
+ h1 {
+    margin-bottom: 16px;
+    margin-top: 20px;
+ }
