@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Young+Serif&display=swap" rel="stylesheet">
@@ -80,7 +80,7 @@ function validateForm(){
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#atj">Activity To Join</a>
+              <a class="nav-link" href="#atj">ctivity To Join</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#course">Course</a>
@@ -188,14 +188,14 @@ function validateForm(){
 
                 It'll be a short, fun, informal tour of art around our buildings at the School of Art. Join us! </p>
     </b>
-                
+
         </div>
         </div>
         </div>
         <br>
         <br>
       </div>
-    
+
   <!--Course-->
   <div id="course" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
@@ -212,42 +212,42 @@ function validateForm(){
        <div class="carousel-caption">
         <h3>Graphic Design</h3>
         <p>This Course we learn about design</p>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="asetugasets/typography.png" alt="Typography" width="1300" height="500">
       <div class="carousel-caption">
         <h3>Typography</h3>
         <p>This course will learn about how to typing with aestheticness</p>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="asetugasets/photography.png" alt="Photography" width="1300" height="500">
       <div class="carousel-caption">
         <h3>Photography</h3>
         <p>This course teach us how to capture static picture</p>
-      </div>    
+      </div>
     </div>
     <div class="carousel-item">
       <img src="asetugasets/painting.png" alt="Painting" width="1300" height="500">
       <div class="carousel-caption">
         <h3>Painting</h3>
         <p>This course teach us how to draw in traditional way</p>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="asetugasets/sculpting.png" alt="Sculpting" width="1300" height="500">
       <div class="carousel-caption">
         <h3>Sculpting</h3>
         <p>this course teach us how to Sculpting the right way</p>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="asetugasets/videography.png" alt="Videography" width="1300" height="500">
       <div class="carousel-caption">
         <h3>Videography</h3>
         <p>This course teach us how to capture motion picture</p>
-      </div>   
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#course" data-slide="prev">
@@ -270,14 +270,14 @@ function validateForm(){
           During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.</P>
       </b>
       <br>
-    </div> 
+    </div>
       <div class="container">
      <div class="row">
       <div class="col"><h2 class="aray-exb-h-1">Why Do I Always Fall Out Of Bed At Night?</h2></div>
-      <div class="col"> <h2 class="aray-exb-h">FALL 2023 IN GREEN HALL GALLERY </h2></div> 
+      <div class="col"> <h2 class="aray-exb-h">FALL 2023 IN GREEN HALL GALLERY </h2></div>
       </div>
      </div>
-     <br>  
+     <br>
      <div class="row">
       <div class="col">
         <b><h4 class="aray-exb-h">1st-Year MFA Show</h4>
@@ -341,8 +341,8 @@ function validateForm(){
                 <hr/>
                 <p class="subtext"><a class="project-link" href="http://127.0.0.1:8000/tugasbootstrap">View here</a></p>
               </div>
-            
-          </div>  
+
+          </div>
           </div>
       </section>
       <section class="sub-section-alternative" id="">
@@ -368,9 +368,9 @@ function validateForm(){
                 <hr/>
                 <p class="subtext"><a class="project-link" href="http://127.0.0.1:8000/validasi">View here</a></p>
               </div>
-              
-            
-          </div>  
+
+
+          </div>
           </div>
       </section>
 
@@ -390,7 +390,7 @@ function validateForm(){
         <br>
         <label for="hp">Nomor HP:</label>
         <input type="text" class="form-control" id="hp">
-        <div id="msg" class="text-danger">          
+        <div id="msg" class="text-danger">
        </div>
        <br>
        <label for="email">Email:</label>
