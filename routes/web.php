@@ -64,12 +64,12 @@ Route::get('/halo2', function () {
 });
 
 
-Route::get('dosen', 'DosenController@index');
+Route::get('dosen', 'App\Http\Controllers\DosenController@index');
 
 Route::get('showjam/{jam}', 'App\Http\Controllers\DosenController@showjam');
 
-Route::get('/formulir', 'DosenController@formulir');
-Route::post('/formulir/proses', 'DosenController@proses');
+Route::get('/formulir', 'App\Http\Controllers\DosenController@formulir');
+Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
 
 //route CRUD
 Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
@@ -78,3 +78,5 @@ Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
 Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
+Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');

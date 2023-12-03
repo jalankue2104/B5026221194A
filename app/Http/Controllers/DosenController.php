@@ -14,7 +14,7 @@ class DosenController extends Controller
     	return "<h1>Hasil Perkalian : " . $c . "</h1>";
     }
     public function biodata(){
-    	$nama = "Muhammad Hasan Kamal";
+    	$nama = "Arayzi Rayyansyah";
         $alamat = "Surabaya";
         $umur = 19;
     	return view('biodata',['nama' => $nama, 'alamat' => $alamat, 'umur' => $umur]);

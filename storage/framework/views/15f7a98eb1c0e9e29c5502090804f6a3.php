@@ -42,4 +42,4 @@
 
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\ARAYZI\OneDrive\Documents\Github\B5026221194A\resources\views/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\ARAYZI\OneDrive\Documents\Github\B5026221194A\resources\views/master.blade.php ENDPATH**/ ?>
