@@ -13,7 +13,7 @@ body {
 }
 
 .ui-w-80 {
-    width : 80px !important;
+    width : 79px !important;
     height: auto;
 }
 
