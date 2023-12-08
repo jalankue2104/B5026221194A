@@ -80,3 +80,15 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+// route nilai
+Route::get('/nilai','App\Http\Controllers\NilaiController@data');
+Route::get('/nilai/tambah','App\Http\Controllers\NilaiController@tambah');
+Route::post('/nilai/store','App\Http\Controllers\NilaiController@store');
+
+//route beli
+Route::get('/keranjangbelanja','App\Http\Controllers\BelanjaController@index1');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\BelanjaController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\BelanjaController@store');
+Route::post('/keranjangbelanja/update','App\Http\Controllers\BelanjaController@update');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\BelanjaController@hapus');
