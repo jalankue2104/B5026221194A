@@ -1,13 +1,13 @@
 @extends('master')
 //x
-@section('title','Data Pegawai')
+@section('title','Data Obat')
 
 @section('konten')
 
 <section class="hero-container">
     <div>
         <div>
-            <h1>Tabel Pegawai
+            <h1>Tabel Obat
             </h1>
             <p>ini halaman tabel</p>
         </div>
