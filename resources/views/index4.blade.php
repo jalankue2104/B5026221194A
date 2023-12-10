@@ -1,5 +1,5 @@
 @extends('master')
-
+//x
 @section('title','Data Pegawai')
 
 @section('konten')
