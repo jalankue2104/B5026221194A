@@ -1,11 +1,11 @@
 @extends('master')
 //x
-@section('title', 'Keranjang Belanja')
+@section('title', 'Tambah Obat')
 
 @section('konten')
 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Data Pegawai</h3>
+	
+	<h3>Tambah Obat</h3>
 
 
 	<br/>
