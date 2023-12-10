@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title','Data Pegawai')
-
+//x
 @section('konten')
 
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
