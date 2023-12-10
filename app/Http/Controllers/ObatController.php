@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+//x
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 class ObatController extends Controller
