@@ -14,12 +14,12 @@ class ObatController extends Controller
         ->get();
 
 
-    	// mengirim data pegawai ke view index
+    	// mengirim data ke view index
 		return view('index4',['obat' => $obat]);
 
 	}
 
-	// method untuk menampilkan view form tambah pegawai
+	// method untuk menampilkan view form tambah
 	public function tambah()
 	{
 
@@ -52,16 +52,16 @@ class ObatController extends Controller
 
 	}
 
-	// update data baju
+	// update data 
 	public function update(Request $request)
 {
-    // update data baju
+    // update data 
     DB::table('obat')->where('kodeobat',$request->id)->update([
         'merkobat' => $request->merkobat,
         'stockobat' => $request->stockobat,
         'tersedia' => ($request->stockobat > 0) ? 'y' : 'n',
     ]);
-    // alihkan halaman ke halaman baju
+    
     return redirect('/obat');
 }
 
