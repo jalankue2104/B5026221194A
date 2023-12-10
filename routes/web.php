@@ -92,3 +92,13 @@ Route::get('/keranjangbelanja/beli','App\Http\Controllers\BelanjaController@beli
 Route::post('/keranjangbelanja/store','App\Http\Controllers\BelanjaController@store');
 Route::post('/keranjangbelanja/update','App\Http\Controllers\BelanjaController@update');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\BelanjaController@hapus');
+
+//route CRUD Obat
+Route::get('/obat','App\Http\Controllers\ObatController@index');
+Route::get('/obat/tambah','App\Http\Controllers\ObatController@tambah');
+Route::post('/obat/store','App\Http\Controllers\ObatController@store');
+Route::get('/obat/edit/{id}','App\Http\Controllers\ObatController@edit');
+Route::post('/obat/update','App\Http\Controllers\ObatController@update');
+Route::get('/obat/hapus/{id}','App\Http\Controllers\ObatController@hapus');
+Route::get('/obat/cari','App\Http\Controllers\ObatController@cari');
+Route::get('/obat/view/{id}','App\Http\Controllers\ObatController@view');
