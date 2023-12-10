@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title', 'Data Pegawai')
-
+//x
 @section('konten')
 <br><br>
 <section class="hero-container">
