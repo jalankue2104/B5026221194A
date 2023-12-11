@@ -105,4 +105,4 @@ Route::get('/obat/view/{id}','App\Http\Controllers\ObatController@view');
 
 //route CRUD EAS
 Route::get('/kategori','App\Http\Controllers\KategoriController@index');
-Route::get('/kategori/view/{id}','App\Http\Controllers\KategoriController@view');
+Route::get('/kategori/view','App\Http\Controllers\KategoriController@view');
