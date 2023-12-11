@@ -21,13 +21,12 @@ class KategoriController extends Controller
 
 
 
-    public function view($ID)
-{
-    // mengambil data kategori berdasarkan id yang dipilih
-    $kategori = DB::table('kategori')->where('ID', $ID)->first();
-    // passing data kategori yang didapat ke view viewkategori.blade.php
-    return view('viewkategori', ['kategori' => $kategori]);
-}
+    public function view(Request $request){
+        // mengambil data pegawai berdasarkan id yang dipilih
+        // passing data pegawai yang didapat ke view edit.blade.php
+        return view('viewkategori',['ID' => $request->nama]);
+    }
+    }
 
 
 }
