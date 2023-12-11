@@ -7,21 +7,20 @@
 
 <section>
     <h2>Pilih Kategori</h2>
-    <br>
-    <h2>Pilih Kategori</h2>
-    <br>
-    @foreach($kategori as $p)
-
-        <select name="ID" id="kategori">
-                <option value="{{ $p->ID }}">{{ $p->Nama }}</option>
-        </select>
-
-
-        <br>
-        <div>
-            <a href="/kategori/view/{{ $p->ID }}" class="btn btn-blue">Kirim</a>
-        </div>
-@endforeach
+    <form action="/kategori/view" method="get">
+            <div class="form-group">
+            <select id="kategori" name="nama" class="form-control">
+                @foreach($kategori as $p)
+                    <option value={{$p->ID}}>{{$p->Nama}}</option>
+                @endforeach
+            </select>
+            </div>
+            <div class="form-group row">
+                <div class="offset-sm-1 col-sm-11 pull-right">
+        <input type="submit" value="Kirim" class="btn btn-danger">
+                </div>
+            </div>
+        </form>
 
 
     <br>
